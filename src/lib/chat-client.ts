@@ -1,7 +1,9 @@
 import type { ColumnMeta, Summary } from "@/types";
+import { apiHeaders } from "@/stores/api-key-store";
 
 interface StreamCallbacks {
   onTextDelta: (text: string) => void;
+  onToolUse?: (name: string, input: Record<string, unknown>) => void;
   onDone: () => void;
   onError: (message: string) => void;
 }
@@ -20,7 +22,7 @@ export function streamChat(
     try {
       const response = await fetch("/api/chat", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: apiHeaders(),
         body: JSON.stringify(params),
         signal: controller.signal,
       });
@@ -58,6 +60,9 @@ export function streamChat(
             switch (event.type) {
               case "text_delta":
                 callbacks.onTextDelta(event.content);
+                break;
+              case "tool_use":
+                callbacks.onToolUse?.(event.name, event.input);
                 break;
               case "done":
                 callbacks.onDone();

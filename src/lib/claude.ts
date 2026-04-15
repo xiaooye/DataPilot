@@ -1,11 +1,17 @@
 import OpenAI from "openai";
 import type { Anomaly, ChartSpec, Insight, Summary } from "@/types";
 
-export function createAIClient(): OpenAI {
+export function createAIClient(apiKey?: string): OpenAI {
   return new OpenAI({
     baseURL: "https://openrouter.ai/api/v1",
-    apiKey: process.env.OPENROUTER_API_KEY,
+    apiKey: apiKey || process.env.OPENROUTER_API_KEY,
   });
+}
+
+/** Extract a user-provided API key from the request, if present. */
+export function getUserApiKey(request: Request): string | undefined {
+  const key = request.headers.get("x-api-key");
+  return key && key.trim().length > 0 ? key.trim() : undefined;
 }
 
 // Free model on OpenRouter with large context

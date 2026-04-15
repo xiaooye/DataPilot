@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createAIClient, AI_MODEL, parseAnalysisJSON } from "@/lib/claude";
+import { createAIClient, AI_MODEL, parseAnalysisJSON, getUserApiKey } from "@/lib/claude";
 import { buildAnalysisPrompt } from "@/lib/prompts";
 import type { ColumnMeta } from "@/types";
 
@@ -22,7 +22,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const client = createAIClient();
+    const client = createAIClient(getUserApiKey(request));
     const { system, user } = buildAnalysisPrompt(
       body.columns,
       body.sampleRows,

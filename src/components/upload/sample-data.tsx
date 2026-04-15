@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { FileSpreadsheet, Loader2 } from "lucide-react";
+import { FileSpreadsheet, Loader2, ShoppingCart, Users, Globe } from "lucide-react";
 import { parseCSV } from "@/lib/csv-parser";
 import { useAnalysisStore } from "@/stores/analysis-store";
 
@@ -12,18 +12,21 @@ const samples = [
     file: "/samples/sales-data.csv",
     rows: 500,
     desc: "E-commerce sales across regions and categories",
+    icon: ShoppingCart,
   },
   {
     title: "Employee Survey",
     file: "/samples/employee-survey.csv",
     rows: 200,
     desc: "Employee satisfaction and engagement data",
+    icon: Users,
   },
   {
     title: "Website Traffic",
     file: "/samples/website-traffic.csv",
     rows: 365,
     desc: "Daily website metrics and conversions",
+    icon: Globe,
   },
 ];
 
@@ -54,22 +57,27 @@ export function SampleData() {
       {samples.map((sample) => (
         <button
           key={sample.title}
-          className="group rounded-xl border bg-card p-5 text-left transition-colors hover:border-primary/50 hover:bg-muted/50 disabled:opacity-50"
+          className="card-accent group rounded-xl border bg-card p-6 text-left transition-colors hover:bg-muted/30 disabled:opacity-50"
           onClick={() => handleClick(sample)}
           disabled={loading !== null}
         >
-          <div className="mb-2 flex items-center gap-2">
-            {loading === sample.file ? (
-              <Loader2 className="h-4 w-4 animate-spin text-primary" />
-            ) : (
-              <FileSpreadsheet className="h-4 w-4 text-primary" />
-            )}
+          <div className="mb-3 flex items-center gap-3">
+            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary/15">
+              {loading === sample.file ? (
+                <Loader2 className="h-4 w-4 animate-spin" />
+              ) : (
+                <sample.icon className="h-4 w-4" />
+              )}
+            </div>
             <h3 className="text-sm font-semibold">{sample.title}</h3>
           </div>
-          <p className="text-xs text-muted-foreground">{sample.desc}</p>
-          <p className="mt-2 text-xs font-medium text-muted-foreground">
-            {sample.rows} rows
-          </p>
+          <p className="text-xs leading-relaxed text-muted-foreground">{sample.desc}</p>
+          <div className="mt-3 flex items-center gap-2">
+            <FileSpreadsheet className="h-3 w-3 text-muted-foreground/60" />
+            <p className="text-xs font-medium text-muted-foreground">
+              {sample.rows} rows
+            </p>
+          </div>
         </button>
       ))}
     </div>

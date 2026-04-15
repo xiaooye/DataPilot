@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ChevronRight } from "lucide-react";
+import { ChevronDown, ChevronRight, Table2 } from "lucide-react";
 import {
   Table,
   TableBody,
@@ -27,37 +27,42 @@ export function DataTable({
   const preview = rows.slice(0, PREVIEW_ROWS);
 
   return (
-    <div>
+    <div className="card-accent rounded-xl border bg-card">
       <Button
         variant="ghost"
         size="sm"
-        className="mb-2 gap-1 text-sm"
+        className="w-full justify-between rounded-none px-5 py-4 text-sm"
         onClick={() => setExpanded((v) => !v)}
       >
+        <span className="flex items-center gap-2">
+          <Table2 className="h-4 w-4 text-muted-foreground" />
+          Data Preview
+          <span className="text-muted-foreground">
+            ({Math.min(PREVIEW_ROWS, rows.length)} of {rows.length} rows)
+          </span>
+        </span>
         {expanded ? (
-          <ChevronDown className="h-4 w-4" />
+          <ChevronDown className="h-4 w-4 text-muted-foreground" />
         ) : (
-          <ChevronRight className="h-4 w-4" />
+          <ChevronRight className="h-4 w-4 text-muted-foreground" />
         )}
-        Data Preview ({Math.min(PREVIEW_ROWS, rows.length)} of {rows.length}{" "}
-        rows)
       </Button>
 
       {expanded && (
-        <div className="overflow-x-auto rounded-lg border">
+        <div className="overflow-x-auto border-t">
           <Table>
             <TableHeader>
-              <TableRow>
+              <TableRow className="hover:bg-transparent">
                 {columns.map((col) => (
                   <TableHead
                     key={col.name}
                     className="whitespace-nowrap text-xs"
                   >
-                    <span className="mr-1 font-mono text-muted-foreground">
+                    <span className="mr-1.5 font-mono text-xs text-muted-foreground/60">
                       {col.type === "number"
                         ? "#"
                         : col.type === "date"
-                          ? "\u{1F4C5}"
+                          ? "D"
                           : "Aa"}
                     </span>
                     {col.name}
@@ -73,13 +78,13 @@ export function DataTable({
                       key={col.name}
                       className={`whitespace-nowrap text-xs ${
                         col.type === "number" || col.type === "date"
-                          ? "font-mono"
+                          ? "font-mono tabular-nums"
                           : ""
                       }`}
                     >
                       {row[col.name] != null
                         ? truncate(String(row[col.name]), 40)
-                        : "—"}
+                        : (<span className="text-muted-foreground/40">&mdash;</span>)}
                     </TableCell>
                   ))}
                 </TableRow>

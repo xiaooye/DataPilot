@@ -1,4 +1,4 @@
-import { createAIClient, AI_MODEL } from "@/lib/claude";
+import { createAIClient, AI_MODEL, getUserApiKey } from "@/lib/claude";
 import { buildChatSystemPrompt } from "@/lib/prompts";
 import type { ColumnMeta, Summary } from "@/types";
 
@@ -21,7 +21,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const client = createAIClient();
+    const client = createAIClient(getUserApiKey(request));
     const systemPrompt = buildChatSystemPrompt(body.columns, body.summary);
 
     const stream = await client.chat.completions.create({

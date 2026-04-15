@@ -26,7 +26,7 @@ export function AutoChart({
   if (chartData.length === 0) return null;
 
   return (
-    <Card>
+    <Card className="card-accent overflow-hidden">
       <CardHeader className="pb-2">
         <CardTitle className="text-sm">{spec.title}</CardTitle>
         {spec.description && (
@@ -36,20 +36,22 @@ export function AutoChart({
         )}
       </CardHeader>
       <CardContent>
-        {spec.type === "bar" && (
-          <DataBarChart data={chartData} yColumn={spec.yColumn} />
-        )}
-        {spec.type === "line" && (
-          <DataLineChart data={chartData} yColumn={spec.yColumn} />
-        )}
-        {spec.type === "pie" && <DataPieChart data={chartData} />}
-        {spec.type === "scatter" && (
-          <DataScatterChart
-            data={chartData}
-            xLabel={spec.xColumn}
-            yLabel={spec.yColumn}
-          />
-        )}
+        <div className="rounded-lg bg-muted/20 p-2">
+          {spec.type === "bar" && (
+            <DataBarChart data={chartData} yColumn={spec.yColumn} />
+          )}
+          {spec.type === "line" && (
+            <DataLineChart data={chartData} yColumn={spec.yColumn} />
+          )}
+          {spec.type === "pie" && <DataPieChart data={chartData} />}
+          {spec.type === "scatter" && (
+            <DataScatterChart
+              data={chartData}
+              xLabel={spec.xColumn}
+              yLabel={spec.yColumn}
+            />
+          )}
+        </div>
       </CardContent>
     </Card>
   );

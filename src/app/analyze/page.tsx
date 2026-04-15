@@ -2,8 +2,9 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { MessageSquare, RefreshCw } from "lucide-react";
+import { MessageSquare, RefreshCw, ArrowLeft } from "lucide-react";
 import { useAnalysisStore } from "@/stores/analysis-store";
+import { apiHeaders } from "@/stores/api-key-store";
 import { getSampleRows } from "@/lib/csv-parser";
 import { FilePreview } from "@/components/upload/file-preview";
 import { SummaryCard } from "@/components/analysis/summary-card";
@@ -38,7 +39,7 @@ export default function AnalyzePage() {
 
       const res = await fetch("/api/analyze", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: apiHeaders(),
         body: JSON.stringify({
           columns: store.columns,
           sampleRows,
@@ -58,7 +59,7 @@ export default function AnalyzePage() {
       if (result.summary && result.insights?.length) {
         fetch("/api/analyze/suggest-questions", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: apiHeaders(),
           body: JSON.stringify({
             columns: store.columns,
             summary: result.summary,
@@ -105,10 +106,24 @@ export default function AnalyzePage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
-      {/* File info + export */}
+      {/* File info + actions */}
       <div className="mb-6 flex items-center justify-between gap-4">
-        <div className="min-w-0 flex-1">
-          <FilePreview />
+        <div className="flex min-w-0 flex-1 items-center gap-3">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="h-8 w-8 shrink-0"
+            onClick={() => {
+              store.reset();
+              router.push("/");
+            }}
+            aria-label="Back to upload"
+          >
+            <ArrowLeft className="h-4 w-4" />
+          </Button>
+          <div className="min-w-0 flex-1">
+            <FilePreview />
+          </div>
         </div>
         {store.status === "ready" && <ExportButton />}
       </div>
@@ -144,7 +159,7 @@ export default function AnalyzePage() {
               <SummaryCard summary={store.summary} />
               <InsightsList insights={store.insights} />
               {store.anomalies.length > 0 && (
-                <div className="rounded-xl border bg-card p-4">
+                <div className="card-accent rounded-xl border bg-card p-5">
                   <h3 className="mb-3 text-sm font-semibold">
                     Data Quality
                   </h3>
@@ -158,7 +173,7 @@ export default function AnalyzePage() {
         </div>
 
         {/* Right panel: chat (desktop only) */}
-        <div className="hidden h-[calc(100vh-10rem)] rounded-xl border bg-card lg:block">
+        <div className="hidden h-[calc(100vh-10rem)] overflow-hidden rounded-xl border bg-card lg:block">
           <ChatPanel />
         </div>
       </div>

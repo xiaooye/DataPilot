@@ -25,10 +25,10 @@ const categoryIcon: Record<string, React.ComponentType<{ className?: string }>> 
   quality: Shield,
 };
 
-const importanceDot: Record<string, string> = {
-  high: "bg-red-500",
-  medium: "bg-yellow-500",
-  low: "bg-muted-foreground/40",
+const importanceStyle: Record<string, { dot: string; bg: string }> = {
+  high: { dot: "bg-red-500", bg: "bg-red-500/5 border-red-500/10" },
+  medium: { dot: "bg-yellow-500", bg: "bg-yellow-500/5 border-yellow-500/10" },
+  low: { dot: "bg-muted-foreground/40", bg: "" },
 };
 
 export function InsightsList({
@@ -42,21 +42,28 @@ export function InsightsList({
   if (insights.length === 0) return null;
 
   return (
-    <Card>
+    <Card className="card-accent">
       <CardHeader>
         <CardTitle className="text-base">Key Insights</CardTitle>
       </CardHeader>
-      <CardContent className="space-y-3">
+      <CardContent className="space-y-2">
         {insights.map((insight, i) => {
           const Icon = categoryIcon[insight.category] ?? BarChart3;
+          const style = importanceStyle[insight.importance] ?? importanceStyle.low;
           return (
-            <div key={i} className="flex items-start gap-3">
+            <div
+              key={i}
+              className={cn(
+                "flex items-start gap-3 rounded-lg border border-transparent p-3 transition-colors hover:bg-muted/30",
+                style.bg,
+              )}
+            >
               <Icon className="mt-0.5 h-4 w-4 shrink-0 text-muted-foreground" />
-              <p className="flex-1 text-sm">{insight.text}</p>
+              <p className="flex-1 text-sm leading-relaxed">{insight.text}</p>
               <span
                 className={cn(
                   "mt-1.5 h-2 w-2 shrink-0 rounded-full",
-                  importanceDot[insight.importance],
+                  style.dot,
                 )}
                 title={`${insight.importance} importance`}
               />

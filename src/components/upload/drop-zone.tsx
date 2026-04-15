@@ -72,9 +72,9 @@ export function DropZone() {
       role="button"
       tabIndex={0}
       className={cn(
-        "relative flex flex-col items-center justify-center rounded-xl border-2 border-dashed p-10 transition-colors cursor-pointer",
-        state === "idle" && "border-border hover:border-primary/50 hover:bg-muted/50",
-        state === "dragover" && "border-primary bg-primary/5",
+        "card-accent relative flex flex-col items-center justify-center rounded-xl border-2 border-dashed p-10 transition-all duration-200 cursor-pointer",
+        state === "idle" && "border-border bg-card hover:border-primary/40 hover:bg-muted/30",
+        state === "dragover" && "border-primary bg-primary/5 scale-[1.01]",
         state === "error" && "border-destructive bg-destructive/5",
         state === "parsing" && "border-primary/50 bg-muted/30 pointer-events-none",
       )}
@@ -102,11 +102,20 @@ export function DropZone() {
         </>
       ) : (
         <>
-          {state === "dragover" ? (
-            <FileSpreadsheet className="mb-3 h-10 w-10 text-primary" />
-          ) : (
-            <Upload className="mb-3 h-10 w-10 text-muted-foreground" />
-          )}
+          <div
+            className={cn(
+              "mb-4 flex h-14 w-14 items-center justify-center rounded-2xl transition-colors",
+              state === "dragover"
+                ? "bg-primary/15 text-primary"
+                : "bg-muted text-muted-foreground",
+            )}
+          >
+            {state === "dragover" ? (
+              <FileSpreadsheet className="h-7 w-7" />
+            ) : (
+              <Upload className="h-7 w-7" />
+            )}
+          </div>
           <p className="mb-1 text-sm font-medium">
             {state === "dragover"
               ? "Drop your file here"

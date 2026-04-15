@@ -22,9 +22,14 @@ export function ExportButton() {
   };
 
   return (
-    <Button variant="outline" size="sm" onClick={handleExport}>
-      <Download className="mr-2 h-4 w-4" />
-      Export
+    <Button
+      variant="outline"
+      size="sm"
+      onClick={handleExport}
+      className="shrink-0 gap-2 transition-colors"
+    >
+      <Download className="h-4 w-4" />
+      Export Report
     </Button>
   );
 }

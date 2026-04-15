@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createAIClient, AI_MODEL } from "@/lib/claude";
+import { createAIClient, AI_MODEL, getUserApiKey } from "@/lib/claude";
 import { buildSuggestedQuestionsPrompt } from "@/lib/prompts";
 import type { ColumnMeta, Insight, Summary } from "@/types";
 
@@ -20,7 +20,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const client = createAIClient();
+    const client = createAIClient(getUserApiKey(request));
     const prompt = buildSuggestedQuestionsPrompt(
       body.columns,
       body.summary,
