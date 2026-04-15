@@ -1,0 +1,501 @@
+date,product,category,quantity,unit_price,revenue,region,customer_type
+2024-01-01,Widget Pro,Electronics,6,29.99,179.94,North America,B2B
+2024-01-02,Gadget X,Hardware,3,49.99,149.97,Europe,B2C
+2024-01-03,Sensor Plus,Accessories,18,19.99,359.82,Asia Pacific,B2B
+2024-01-04,Cable Kit,Components,5,9.99,49.95,Latin America,B2C
+2024-01-05,Power Unit,Electronics,1,79.99,79.99,North America,B2B
+2024-01-06,LED Panel,Hardware,15,39.99,599.85,Europe,B2C
+2024-01-07,Micro Board,Accessories,18,59.99,1079.82,Asia Pacific,B2B
+2024-01-08,Relay Switch,Components,3,24.99,74.97,Latin America,B2C
+2024-01-09,Widget Pro,Electronics,15,29.99,449.85,North America,B2B
+2024-01-10,Gadget X,Hardware,2,49.99,99.98,Europe,B2C
+2024-01-11,Sensor Plus,Accessories,20,19.99,399.80,Asia Pacific,B2B
+2024-01-12,Cable Kit,Components,4,9.99,39.96,Latin America,B2C
+2024-01-13,Power Unit,Electronics,6,79.99,479.94,North America,B2B
+2024-01-14,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-01-15,Micro Board,Accessories,2,59.99,119.98,Asia Pacific,B2B
+2024-01-16,Relay Switch,Components,6,24.99,149.94,Latin America,B2C
+2024-01-17,Widget Pro,Electronics,3,29.99,89.97,North America,B2B
+2024-01-18,Gadget X,Hardware,8,49.99,399.92,Europe,B2C
+2024-01-19,Sensor Plus,Accessories,20,19.99,399.80,Asia Pacific,B2B
+2024-01-20,Cable Kit,Components,14,9.99,139.86,Latin America,B2C
+2024-01-21,Power Unit,Electronics,15,79.99,1199.85,North America,B2B
+2024-01-22,LED Panel,Hardware,15,39.99,599.85,Europe,B2C
+2024-01-23,Micro Board,Accessories,4,59.99,239.96,Asia Pacific,B2B
+2024-01-24,Relay Switch,Components,20,24.99,499.80,Latin America,B2C
+2024-01-25,Widget Pro,Electronics,17,29.99,509.83,North America,B2B
+2024-01-26,Gadget X,Hardware,4,49.99,199.96,Europe,B2C
+2024-01-27,Sensor Plus,Accessories,8,19.99,159.92,Asia Pacific,B2B
+2024-01-28,Cable Kit,Components,7,9.99,69.93,Latin America,B2C
+2024-01-01,Power Unit,Electronics,4,79.99,319.96,North America,B2B
+2024-01-02,LED Panel,Hardware,4,39.99,159.96,Europe,B2C
+2024-01-03,Micro Board,Accessories,5,59.99,299.95,Asia Pacific,B2B
+2024-01-04,Relay Switch,Components,11,24.99,274.89,Latin America,B2C
+2024-01-05,Widget Pro,Electronics,20,29.99,599.80,North America,B2B
+2024-01-06,Gadget X,Hardware,12,49.99,599.88,Europe,B2C
+2024-01-07,Sensor Plus,Accessories,3,19.99,59.97,Asia Pacific,B2B
+2024-01-08,Cable Kit,Components,18,9.99,179.82,Latin America,B2C
+2024-01-09,Power Unit,Electronics,19,79.99,1519.81,North America,B2B
+2024-01-10,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-01-11,Micro Board,Accessories,3,59.99,179.97,Asia Pacific,B2B
+2024-01-12,Relay Switch,Components,14,24.99,349.86,Latin America,B2C
+2024-01-13,Widget Pro,Electronics,7,29.99,209.93,North America,B2B
+2024-01-14,Gadget X,Hardware,15,49.99,749.85,Europe,B2C
+2024-02-15,Sensor Plus,Accessories,20,19.99,399.80,Asia Pacific,B2B
+2024-02-16,Cable Kit,Components,16,9.99,159.84,Latin America,B2C
+2024-02-17,Power Unit,Electronics,19,79.99,1519.81,North America,B2B
+2024-02-18,LED Panel,Hardware,20,39.99,799.80,Europe,B2C
+2024-02-19,Micro Board,Accessories,18,59.99,1079.82,Asia Pacific,B2B
+2024-02-20,Relay Switch,Components,8,24.99,199.92,Latin America,B2C
+2024-02-21,Widget Pro,Electronics,3,29.99,89.97,North America,B2B
+2024-02-22,Gadget X,Hardware,16,49.99,799.84,Europe,B2C
+2024-02-23,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-02-24,Cable Kit,Components,19,9.99,189.81,Latin America,B2C
+2024-02-25,Power Unit,Electronics,7,79.99,559.93,North America,B2B
+2024-02-26,LED Panel,Hardware,7,39.99,279.93,Europe,B2C
+2024-02-27,Micro Board,Accessories,11,59.99,659.89,Asia Pacific,B2B
+2024-02-28,Relay Switch,Components,19,24.99,474.81,Latin America,B2C
+2024-02-01,Widget Pro,Electronics,11,29.99,329.89,North America,B2B
+2024-02-02,Gadget X,Hardware,8,49.99,399.92,Europe,B2C
+2024-02-03,Sensor Plus,Accessories,6,19.99,119.94,Asia Pacific,B2B
+2024-02-04,Cable Kit,Components,3,9.99,29.97,Latin America,B2C
+2024-02-05,Power Unit,Electronics,7,79.99,559.93,North America,B2B
+2024-02-06,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-02-07,Micro Board,Accessories,5,59.99,299.95,Asia Pacific,B2B
+2024-02-08,Relay Switch,Components,5,24.99,124.95,Latin America,B2C
+2024-02-09,Widget Pro,Electronics,4,29.99,119.96,North America,B2B
+2024-02-10,Gadget X,Hardware,13,49.99,649.87,Europe,B2C
+2024-02-11,Sensor Plus,Accessories,3,19.99,59.97,Asia Pacific,B2B
+2024-02-12,Cable Kit,Components,11,9.99,109.89,Latin America,B2C
+2024-02-13,Power Unit,Electronics,15,79.99,1199.85,North America,B2B
+2024-02-14,LED Panel,Hardware,17,39.99,679.83,Europe,B2C
+2024-02-15,Micro Board,Accessories,14,59.99,839.86,Asia Pacific,B2B
+2024-02-16,Relay Switch,Components,17,24.99,424.83,Latin America,B2C
+2024-02-17,Widget Pro,Electronics,14,29.99,419.86,North America,B2B
+2024-02-18,Gadget X,Hardware,10,49.99,499.90,Europe,B2C
+2024-02-19,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-02-20,Cable Kit,Components,9,9.99,89.91,Latin America,B2C
+2024-02-21,Power Unit,Electronics,18,79.99,1439.82,North America,B2B
+2024-02-22,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-02-23,Micro Board,Accessories,20,59.99,1199.80,Asia Pacific,B2B
+2024-02-24,Relay Switch,Components,19,24.99,474.81,Latin America,B2C
+2024-02-25,Widget Pro,Electronics,21,29.99,629.79,North America,B2B
+2024-02-26,Gadget X,Hardware,8,49.99,399.92,Europe,B2C
+2024-02-27,Sensor Plus,Accessories,19,19.99,379.81,Asia Pacific,B2B
+2024-02-28,Cable Kit,Components,17,9.99,169.83,Latin America,B2C
+2024-03-01,Power Unit,Electronics,2,79.99,159.98,North America,B2B
+2024-03-02,LED Panel,Hardware,10,39.99,399.90,Europe,B2C
+2024-03-03,Micro Board,Accessories,9,59.99,539.91,Asia Pacific,B2B
+2024-03-04,Relay Switch,Components,8,24.99,199.92,Latin America,B2C
+2024-03-05,Widget Pro,Electronics,17,29.99,509.83,North America,B2B
+2024-03-06,Gadget X,Hardware,7,49.99,349.93,Europe,B2C
+2024-03-07,Sensor Plus,Accessories,7,19.99,139.93,Asia Pacific,B2B
+2024-03-08,Cable Kit,Components,7,9.99,69.93,Latin America,B2C
+2024-03-09,Power Unit,Electronics,1,79.99,79.99,North America,B2B
+2024-03-10,LED Panel,Hardware,20,39.99,799.80,Europe,B2C
+2024-03-11,Micro Board,Accessories,6,59.99,359.94,Asia Pacific,B2B
+2024-03-12,Relay Switch,Components,18,24.99,449.82,Latin America,B2C
+2024-03-13,Widget Pro,Electronics,12,29.99,359.88,North America,B2B
+2024-03-14,Gadget X,Hardware,10,49.99,499.90,Europe,B2C
+2024-03-15,Sensor Plus,Accessories,17,19.99,339.83,Asia Pacific,B2B
+2024-03-16,Cable Kit,Components,7,9.99,69.93,Latin America,B2C
+2024-03-17,Power Unit,Electronics,20,79.99,1599.80,North America,B2B
+2024-03-18,LED Panel,Hardware,2,39.99,79.98,Europe,B2C
+2024-03-19,Micro Board,Accessories,12,59.99,719.88,Asia Pacific,B2B
+2024-03-20,Relay Switch,Components,14,24.99,349.86,Latin America,B2C
+2024-03-21,Widget Pro,Electronics,7,29.99,209.93,North America,B2B
+2024-03-22,Gadget X,Hardware,20,49.99,999.80,Europe,B2C
+2024-03-23,Sensor Plus,Accessories,12,19.99,239.88,Asia Pacific,B2B
+2024-03-24,Cable Kit,Components,12,9.99,119.88,Latin America,B2C
+2024-03-25,Power Unit,Electronics,6,79.99,479.94,North America,B2B
+2024-03-26,LED Panel,Hardware,13,39.99,519.87,Europe,B2C
+2024-03-27,Micro Board,Accessories,10,59.99,599.90,Asia Pacific,B2B
+2024-03-28,Relay Switch,Components,19,24.99,474.81,Latin America,B2C
+2024-03-01,Widget Pro,Electronics,20,29.99,599.80,North America,B2B
+2024-03-02,Gadget X,Hardware,10,49.99,499.90,Europe,B2C
+2024-03-03,Sensor Plus,Accessories,21,19.99,419.79,Asia Pacific,B2B
+2024-03-04,Cable Kit,Components,12,9.99,119.88,Latin America,B2C
+2024-03-05,Power Unit,Electronics,20,79.99,1599.80,North America,B2B
+2024-03-06,LED Panel,Hardware,11,39.99,439.89,Europe,B2C
+2024-03-07,Micro Board,Accessories,12,59.99,719.88,Asia Pacific,B2B
+2024-03-08,Relay Switch,Components,12,24.99,299.88,Latin America,B2C
+2024-03-09,Widget Pro,Electronics,14,29.99,419.86,North America,B2B
+2024-03-10,Gadget X,Hardware,4,49.99,199.96,Europe,B2C
+2024-03-11,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-03-12,Cable Kit,Components,7,9.99,69.93,Latin America,B2C
+2024-03-13,Power Unit,Electronics,5,79.99,399.95,North America,B2B
+2024-03-14,LED Panel,Hardware,9,39.99,359.91,Europe,B2C
+2024-04-15,Micro Board,Accessories,16,59.99,959.84,Asia Pacific,B2B
+2024-04-16,Relay Switch,Components,19,24.99,474.81,Latin America,B2C
+2024-04-17,Widget Pro,Electronics,3,29.99,89.97,North America,B2B
+2024-04-18,Gadget X,Hardware,21,49.99,1049.79,Europe,B2C
+2024-04-19,Sensor Plus,Accessories,7,19.99,139.93,Asia Pacific,B2B
+2024-04-20,Cable Kit,Components,19,9.99,189.81,Latin America,B2C
+2024-04-21,Power Unit,Electronics,9,79.99,719.91,North America,B2B
+2024-04-22,LED Panel,Hardware,12,39.99,479.88,Europe,B2C
+2024-04-23,Micro Board,Accessories,20,59.99,1199.80,Asia Pacific,B2B
+2024-04-24,Relay Switch,Components,17,24.99,424.83,Latin America,B2C
+2024-04-25,Widget Pro,Electronics,20,29.99,599.80,North America,B2B
+2024-04-26,Gadget X,Hardware,20,49.99,999.80,Europe,B2C
+2024-04-27,Sensor Plus,Accessories,13,19.99,259.87,Asia Pacific,B2B
+2024-04-28,Cable Kit,Components,3,9.99,29.97,Latin America,B2C
+2024-04-01,Power Unit,Electronics,7,79.99,559.93,North America,B2B
+2024-04-02,LED Panel,Hardware,2,39.99,79.98,Europe,B2C
+2024-04-03,Micro Board,Accessories,8,59.99,479.92,Asia Pacific,B2B
+2024-04-04,Relay Switch,Components,15,24.99,374.85,Latin America,B2C
+2024-04-05,Widget Pro,Electronics,5,29.99,149.95,North America,B2B
+2024-04-06,Gadget X,Hardware,18,49.99,899.82,Europe,B2C
+2024-04-07,Sensor Plus,Accessories,17,19.99,339.83,Asia Pacific,B2B
+2024-04-08,Cable Kit,Components,7,9.99,69.93,Latin America,B2C
+2024-04-09,Power Unit,Electronics,20,79.99,1599.80,North America,B2B
+2024-04-10,LED Panel,Hardware,13,39.99,519.87,Europe,B2C
+2024-04-11,Micro Board,Accessories,19,59.99,1139.81,Asia Pacific,B2B
+2024-04-12,Relay Switch,Components,14,24.99,349.86,Latin America,B2C
+2024-04-13,Widget Pro,Electronics,3,29.99,89.97,North America,B2B
+2024-04-14,Gadget X,Hardware,7,49.99,349.93,Europe,B2C
+2024-04-15,Sensor Plus,Accessories,15,19.99,299.85,Asia Pacific,B2B
+2024-04-16,Cable Kit,Components,16,9.99,159.84,Latin America,B2C
+2024-04-17,Power Unit,Electronics,8,79.99,639.92,North America,B2B
+2024-04-18,LED Panel,Hardware,1,39.99,39.99,Europe,B2C
+2024-04-19,Micro Board,Accessories,3,59.99,179.97,Asia Pacific,B2B
+2024-04-20,Relay Switch,Components,12,24.99,299.88,Latin America,B2C
+2024-04-21,Widget Pro,Electronics,12,29.99,359.88,North America,B2B
+2024-04-22,Gadget X,Hardware,2,49.99,99.98,Europe,B2C
+2024-04-23,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-04-24,Cable Kit,Components,10,9.99,99.90,Latin America,B2C
+2024-04-25,Power Unit,Electronics,8,79.99,639.92,North America,B2B
+2024-04-26,LED Panel,Hardware,15,39.99,599.85,Europe,B2C
+2024-04-27,Micro Board,Accessories,17,59.99,1019.83,Asia Pacific,B2B
+2024-04-28,Relay Switch,Components,10,24.99,249.90,Latin America,B2C
+2024-05-01,Widget Pro,Electronics,20,29.99,599.80,North America,B2B
+2024-05-02,Gadget X,Hardware,3,49.99,149.97,Europe,B2C
+2024-05-03,Sensor Plus,Accessories,12,19.99,239.88,Asia Pacific,B2B
+2024-05-04,Cable Kit,Components,14,9.99,139.86,Latin America,B2C
+2024-05-05,Power Unit,Electronics,7,79.99,559.93,North America,B2B
+2024-05-06,LED Panel,Hardware,21,39.99,839.79,Europe,B2C
+2024-05-07,Micro Board,Accessories,14,59.99,839.86,Asia Pacific,B2B
+2024-05-08,Relay Switch,Components,7,24.99,174.93,Latin America,B2C
+2024-05-09,Widget Pro,Electronics,14,29.99,419.86,North America,B2B
+2024-05-10,Gadget X,Hardware,11,49.99,549.89,Europe,B2C
+2024-05-11,Sensor Plus,Accessories,3,19.99,59.97,Asia Pacific,B2B
+2024-05-12,Cable Kit,Components,15,9.99,149.85,Latin America,B2C
+2024-05-13,Power Unit,Electronics,12,79.99,959.88,North America,B2B
+2024-05-14,LED Panel,Hardware,12,39.99,479.88,Europe,B2C
+2024-05-15,Micro Board,Accessories,9,59.99,539.91,Asia Pacific,B2B
+2024-05-16,Relay Switch,Components,16,24.99,399.84,Latin America,B2C
+2024-05-17,Widget Pro,Electronics,20,29.99,599.80,North America,B2B
+2024-05-18,Gadget X,Hardware,1,49.99,49.99,Europe,B2C
+2024-05-19,Sensor Plus,Accessories,3,19.99,59.97,Asia Pacific,B2B
+2024-05-20,Cable Kit,Components,3,9.99,29.97,Latin America,B2C
+2024-05-21,Power Unit,Electronics,21,79.99,1679.79,North America,B2B
+2024-05-22,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-05-23,Micro Board,Accessories,18,59.99,1079.82,Asia Pacific,B2B
+2024-05-24,Relay Switch,Components,3,24.99,74.97,Latin America,B2C
+2024-05-25,Widget Pro,Electronics,10,29.99,299.90,North America,B2B
+2024-05-26,Gadget X,Hardware,9,49.99,449.91,Europe,B2C
+2024-05-27,Sensor Plus,Accessories,5,19.99,99.95,Asia Pacific,B2B
+2024-05-28,Cable Kit,Components,19,9.99,189.81,Latin America,B2C
+2024-05-01,Power Unit,Electronics,2,79.99,159.98,North America,B2B
+2024-05-02,LED Panel,Hardware,11,39.99,439.89,Europe,B2C
+2024-05-03,Micro Board,Accessories,15,59.99,899.85,Asia Pacific,B2B
+2024-05-04,Relay Switch,Components,50,24.99,1249.50,Latin America,B2C
+2024-05-05,Widget Pro,Electronics,8,29.99,239.92,North America,B2B
+2024-05-06,Gadget X,Hardware,15,49.99,749.85,Europe,B2C
+2024-05-07,Sensor Plus,Accessories,18,19.99,359.82,Asia Pacific,B2B
+2024-05-08,Cable Kit,Components,1,9.99,9.99,Latin America,B2C
+2024-05-09,Power Unit,Electronics,7,79.99,559.93,North America,B2B
+2024-05-10,LED Panel,Hardware,11,39.99,439.89,Europe,B2C
+2024-05-11,Micro Board,Accessories,3,59.99,179.97,Asia Pacific,B2B
+2024-05-12,Relay Switch,Components,11,24.99,274.89,Latin America,B2C
+2024-05-13,Widget Pro,Electronics,9,29.99,269.91,North America,B2B
+2024-05-14,Gadget X,Hardware,5,49.99,249.95,Europe,B2C
+2024-06-15,Sensor Plus,Accessories,14,19.99,279.86,Asia Pacific,B2B
+2024-06-16,Cable Kit,Components,10,9.99,99.90,Latin America,B2C
+2024-06-17,Power Unit,Electronics,9,79.99,719.91,North America,B2B
+2024-06-18,LED Panel,Hardware,2,39.99,79.98,Europe,B2C
+2024-06-19,Micro Board,Accessories,11,59.99,659.89,Asia Pacific,B2B
+2024-06-20,Relay Switch,Components,20,24.99,499.80,Latin America,B2C
+2024-06-21,Widget Pro,Electronics,3,29.99,89.97,North America,B2B
+2024-06-22,Gadget X,Hardware,11,49.99,549.89,Europe,B2C
+2024-06-23,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-06-24,Cable Kit,Components,8,9.99,79.92,Latin America,B2C
+2024-06-25,Power Unit,Electronics,8,79.99,639.92,North America,B2B
+2024-06-26,LED Panel,Hardware,8,39.99,319.92,Europe,B2C
+2024-06-27,Micro Board,Accessories,16,59.99,959.84,Asia Pacific,B2B
+2024-06-28,Relay Switch,Components,2,24.99,49.98,Latin America,B2C
+2024-06-01,Widget Pro,Electronics,9,29.99,269.91,North America,B2B
+2024-06-02,Gadget X,Hardware,17,49.99,849.83,Europe,B2C
+2024-06-03,Sensor Plus,Accessories,20,19.99,399.80,Asia Pacific,B2B
+2024-06-04,Cable Kit,Components,5,9.99,49.95,Latin America,B2C
+2024-06-05,Power Unit,Electronics,4,79.99,319.96,North America,B2B
+2024-06-06,LED Panel,Hardware,15,39.99,599.85,Europe,B2C
+2024-06-07,Micro Board,Accessories,19,59.99,1139.81,Asia Pacific,B2B
+2024-06-08,Relay Switch,Components,15,24.99,374.85,Latin America,B2C
+2024-06-09,Widget Pro,Electronics,9,29.99,269.91,North America,B2B
+2024-06-10,Gadget X,Hardware,17,49.99,849.83,Europe,B2C
+2024-06-11,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-06-12,Cable Kit,Components,2,9.99,19.98,Latin America,B2C
+2024-06-13,Power Unit,Electronics,15,79.99,1199.85,North America,B2B
+2024-06-14,LED Panel,Hardware,14,39.99,559.86,Europe,B2C
+2024-06-15,Micro Board,Accessories,20,59.99,1199.80,Asia Pacific,B2B
+2024-06-16,Relay Switch,Components,18,24.99,449.82,Latin America,B2C
+2024-06-17,Widget Pro,Electronics,2,29.99,59.98,North America,B2B
+2024-06-18,Gadget X,Hardware,19,49.99,949.81,Europe,B2C
+2024-06-19,Sensor Plus,Accessories,15,19.99,299.85,Asia Pacific,B2B
+2024-06-20,Cable Kit,Components,13,9.99,129.87,Latin America,B2C
+2024-06-21,Power Unit,Electronics,16,79.99,1279.84,North America,B2B
+2024-06-22,LED Panel,Hardware,8,39.99,319.92,Europe,B2C
+2024-06-23,Micro Board,Accessories,17,59.99,1019.83,Asia Pacific,B2B
+2024-06-24,Relay Switch,Components,14,24.99,349.86,Latin America,B2C
+2024-06-25,Widget Pro,Electronics,19,29.99,569.81,North America,B2B
+2024-06-26,Gadget X,Hardware,5,49.99,249.95,Europe,B2C
+2024-06-27,Sensor Plus,Accessories,14,19.99,279.86,Asia Pacific,B2B
+2024-06-28,Cable Kit,Components,11,9.99,109.89,Latin America,B2C
+2024-07-01,Power Unit,Electronics,1,79.99,79.99,North America,B2B
+2024-07-02,LED Panel,Hardware,5,39.99,199.95,Europe,B2C
+2024-07-03,Micro Board,Accessories,7,59.99,419.93,Asia Pacific,B2B
+2024-07-04,Relay Switch,Components,12,24.99,299.88,Latin America,B2C
+2024-07-05,Widget Pro,Electronics,19,29.99,569.81,North America,B2B
+2024-07-06,Gadget X,Hardware,20,49.99,999.80,Europe,B2C
+2024-07-07,Sensor Plus,Accessories,5,19.99,99.95,Asia Pacific,B2B
+2024-07-08,Cable Kit,Components,2,9.99,19.98,Latin America,B2C
+2024-07-09,Power Unit,Electronics,8,79.99,639.92,North America,B2B
+2024-07-10,LED Panel,Hardware,1,39.99,39.99,Europe,B2C
+2024-07-11,Micro Board,Accessories,16,59.99,959.84,Asia Pacific,B2B
+2024-07-12,Relay Switch,Components,20,24.99,499.80,Latin America,B2C
+2024-07-13,Widget Pro,Electronics,7,29.99,209.93,North America,B2B
+2024-07-14,Gadget X,Hardware,18,49.99,899.82,Europe,B2C
+2024-07-15,Sensor Plus,Accessories,19,19.99,379.81,Asia Pacific,B2B
+2024-07-16,Cable Kit,Components,4,9.99,39.96,Latin America,B2C
+2024-07-17,Power Unit,Electronics,14,79.99,1119.86,North America,B2B
+2024-07-18,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-07-19,Micro Board,Accessories,10,59.99,599.90,Asia Pacific,B2B
+2024-07-20,Relay Switch,Components,21,24.99,524.79,Latin America,B2C
+2024-07-21,Widget Pro,Electronics,3,29.99,89.97,North America,B2B
+2024-07-22,Gadget X,Hardware,10,49.99,499.90,Europe,B2C
+2024-07-23,Sensor Plus,Accessories,17,19.99,339.83,Asia Pacific,B2B
+2024-07-24,Cable Kit,Components,9,9.99,89.91,Latin America,B2C
+2024-07-25,Power Unit,Electronics,5,79.99,399.95,North America,B2B
+2024-07-26,LED Panel,Hardware,20,39.99,799.80,Europe,B2C
+2024-07-27,Micro Board,Accessories,19,59.99,1139.81,Asia Pacific,B2B
+2024-07-28,Relay Switch,Components,13,24.99,324.87,Latin America,B2C
+2024-07-01,Widget Pro,Electronics,1,29.99,29.99,North America,B2B
+2024-07-02,Gadget X,Hardware,17,49.99,849.83,Europe,B2C
+2024-07-03,Sensor Plus,Accessories,9,19.99,179.91,Asia Pacific,B2B
+2024-07-04,Cable Kit,Components,4,9.99,39.96,Latin America,B2C
+2024-07-05,Power Unit,Electronics,8,79.99,639.92,North America,B2B
+2024-07-06,LED Panel,Hardware,9,39.99,359.91,Europe,B2C
+2024-07-07,Micro Board,Accessories,12,59.99,719.88,Asia Pacific,B2B
+2024-07-08,Relay Switch,Components,7,24.99,174.93,Latin America,B2C
+2024-07-09,Widget Pro,Electronics,16,29.99,479.84,North America,B2B
+2024-07-10,Gadget X,Hardware,20,49.99,999.80,Europe,B2C
+2024-07-11,Sensor Plus,Accessories,4,19.99,79.96,Asia Pacific,B2B
+2024-07-12,Cable Kit,Components,17,9.99,169.83,Latin America,B2C
+2024-07-13,Power Unit,Electronics,15,79.99,1199.85,North America,B2B
+2024-07-14,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-08-15,Micro Board,Accessories,7,59.99,419.93,Asia Pacific,B2B
+2024-08-16,Relay Switch,Components,2,24.99,49.98,Latin America,B2C
+2024-08-17,Widget Pro,Electronics,21,29.99,629.79,North America,B2B
+2024-08-18,Gadget X,Hardware,9,49.99,449.91,Europe,B2C
+2024-08-19,Sensor Plus,Accessories,19,19.99,379.81,Asia Pacific,B2B
+2024-08-20,Cable Kit,Components,7,9.99,69.93,Latin America,B2C
+2024-08-21,Power Unit,Electronics,11,79.99,879.89,North America,B2B
+2024-08-22,LED Panel,Hardware,18,39.99,719.82,Europe,B2C
+2024-08-23,Micro Board,Accessories,5,59.99,299.95,Asia Pacific,B2B
+2024-08-24,Relay Switch,Components,18,24.99,449.82,Latin America,B2C
+2024-08-25,Widget Pro,Electronics,11,29.99,329.89,North America,B2B
+2024-08-26,Gadget X,Hardware,7,49.99,349.93,Europe,B2C
+2024-08-27,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-08-28,Cable Kit,Components,13,9.99,129.87,Latin America,B2C
+2024-08-01,Power Unit,Electronics,9,79.99,719.91,North America,B2B
+2024-08-02,LED Panel,Hardware,2,39.99,79.98,Europe,B2C
+2024-08-03,Micro Board,Accessories,9,59.99,539.91,Asia Pacific,B2B
+2024-08-04,Relay Switch,Components,11,24.99,274.89,Latin America,B2C
+2024-08-05,Widget Pro,Electronics,15,29.99,449.85,North America,B2B
+2024-08-06,Gadget X,Hardware,12,49.99,599.88,Europe,B2C
+2024-08-07,Sensor Plus,Accessories,12,19.99,239.88,Asia Pacific,B2B
+2024-08-08,Cable Kit,Components,16,9.99,159.84,Latin America,B2C
+2024-08-09,Power Unit,Electronics,14,79.99,1119.86,North America,B2B
+2024-08-10,LED Panel,Hardware,7,39.99,279.93,Europe,B2C
+2024-08-11,Micro Board,Accessories,10,59.99,599.90,Asia Pacific,B2B
+2024-08-12,Relay Switch,Components,8,24.99,199.92,Latin America,B2C
+2024-08-13,Widget Pro,Electronics,16,29.99,479.84,North America,B2B
+2024-08-14,Gadget X,Hardware,19,49.99,949.81,Europe,B2C
+2024-08-15,Sensor Plus,Accessories,2,19.99,39.98,Asia Pacific,B2B
+2024-08-16,Cable Kit,Components,11,9.99,109.89,Latin America,B2C
+2024-08-17,Power Unit,Electronics,17,79.99,1359.83,North America,B2B
+2024-08-18,LED Panel,Hardware,16,39.99,639.84,Europe,B2C
+2024-08-19,Micro Board,Accessories,11,59.99,659.89,Asia Pacific,B2B
+2024-08-20,Relay Switch,Components,20,24.99,499.80,Latin America,B2C
+2024-08-21,Widget Pro,Electronics,13,29.99,389.87,North America,B2B
+2024-08-22,Gadget X,Hardware,21,49.99,1049.79,Europe,B2C
+2024-08-23,Sensor Plus,Accessories,16,19.99,319.84,Asia Pacific,B2B
+2024-08-24,Cable Kit,Components,4,9.99,39.96,Latin America,B2C
+2024-08-25,Power Unit,Electronics,10,79.99,799.90,North America,B2B
+2024-08-26,LED Panel,Hardware,18,39.99,719.82,Europe,B2C
+2024-08-27,Micro Board,Accessories,16,59.99,959.84,Asia Pacific,B2B
+2024-08-28,Relay Switch,Components,13,24.99,324.87,Latin America,B2C
+2024-09-01,Widget Pro,Electronics,18,29.99,539.82,North America,B2B
+2024-09-02,Gadget X,Hardware,10,49.99,499.90,Europe,B2C
+2024-09-03,Sensor Plus,Accessories,15,19.99,299.85,Asia Pacific,B2B
+2024-09-04,Cable Kit,Components,9,9.99,89.91,Latin America,B2C
+2024-09-05,Power Unit,Electronics,9,79.99,719.91,North America,B2B
+2024-09-06,LED Panel,Hardware,16,39.99,639.84,Europe,B2C
+2024-09-07,Micro Board,Accessories,12,59.99,719.88,Asia Pacific,B2B
+2024-09-08,Relay Switch,Components,11,24.99,274.89,Latin America,B2C
+2024-09-09,Widget Pro,Electronics,12,29.99,359.88,North America,B2B
+2024-09-10,Gadget X,Hardware,16,49.99,799.84,Europe,B2C
+2024-09-11,Sensor Plus,Accessories,17,19.99,339.83,Asia Pacific,B2B
+2024-09-12,Cable Kit,Components,10,9.99,99.90,Latin America,B2C
+2024-09-13,Power Unit,Electronics,15,79.99,1199.85,North America,B2B
+2024-09-14,LED Panel,Hardware,11,39.99,439.89,Europe,B2C
+2024-09-15,Micro Board,Accessories,12,59.99,719.88,Asia Pacific,B2B
+2024-09-16,Relay Switch,Components,9,24.99,224.91,Latin America,B2C
+2024-09-17,Widget Pro,Electronics,16,29.99,479.84,North America,B2B
+2024-09-18,Gadget X,Hardware,20,49.99,999.80,Europe,B2C
+2024-09-19,Sensor Plus,Accessories,17,19.99,339.83,Asia Pacific,B2B
+2024-09-20,Cable Kit,Components,3,9.99,29.97,Latin America,B2C
+2024-09-21,Power Unit,Electronics,3,79.99,239.97,North America,B2B
+2024-09-22,LED Panel,Hardware,1,39.99,39.99,Europe,B2C
+2024-09-23,Micro Board,Accessories,16,59.99,959.84,Asia Pacific,B2B
+2024-09-24,Relay Switch,Components,14,24.99,349.86,Latin America,B2C
+2024-09-25,Widget Pro,Electronics,18,29.99,539.82,North America,B2B
+2024-09-26,Gadget X,Hardware,1,49.99,49.99,Europe,B2C
+2024-09-27,Sensor Plus,Accessories,9,19.99,179.91,Asia Pacific,B2B
+2024-09-28,Cable Kit,Components,9,9.99,89.91,Latin America,B2C
+2024-09-01,Power Unit,Electronics,5,79.99,399.95,North America,B2B
+2024-09-02,LED Panel,Hardware,4,39.99,159.96,Europe,B2C
+2024-09-03,Micro Board,Accessories,16,59.99,959.84,Asia Pacific,B2B
+2024-09-04,Relay Switch,Components,20,24.99,499.80,Latin America,B2C
+2024-09-05,Widget Pro,Electronics,5,29.99,149.95,North America,B2B
+2024-09-06,Gadget X,Hardware,12,49.99,599.88,Europe,B2C
+2024-09-07,Sensor Plus,Accessories,9,19.99,179.91,Asia Pacific,B2B
+2024-09-08,Cable Kit,Components,16,9.99,159.84,Latin America,B2C
+2024-09-09,Power Unit,Electronics,4,79.99,319.96,North America,B2B
+2024-09-10,LED Panel,Hardware,2,39.99,79.98,Europe,B2C
+2024-09-11,Micro Board,Accessories,14,59.99,839.86,Asia Pacific,B2B
+2024-09-12,Relay Switch,Components,15,24.99,374.85,Latin America,B2C
+2024-09-13,Widget Pro,Electronics,7,29.99,209.93,North America,B2B
+2024-09-14,Gadget X,Hardware,60,49.99,2999.40,Europe,B2C
+2024-10-15,Sensor Plus,Accessories,6,19.99,119.94,Asia Pacific,B2B
+2024-10-16,Cable Kit,Components,8,9.99,79.92,Latin America,B2C
+2024-10-17,Power Unit,Electronics,16,79.99,1279.84,North America,B2B
+2024-10-18,LED Panel,Hardware,25,39.99,999.75,Europe,B2C
+2024-10-19,Micro Board,Accessories,6,59.99,359.94,Asia Pacific,B2B
+2024-10-20,Relay Switch,Components,5,24.99,124.95,Latin America,B2C
+2024-10-21,Widget Pro,Electronics,15,29.99,449.85,North America,B2B
+2024-10-22,Gadget X,Hardware,21,49.99,1049.79,Europe,B2C
+2024-10-23,Sensor Plus,Accessories,4,19.99,79.96,Asia Pacific,B2B
+2024-10-24,Cable Kit,Components,2,9.99,19.98,Latin America,B2C
+2024-10-25,Power Unit,Electronics,12,79.99,959.88,North America,B2B
+2024-10-26,LED Panel,Hardware,11,39.99,439.89,Europe,B2C
+2024-10-27,Micro Board,Accessories,22,59.99,1319.78,Asia Pacific,B2B
+2024-10-28,Relay Switch,Components,9,24.99,224.91,Latin America,B2C
+2024-10-01,Widget Pro,Electronics,14,29.99,419.86,North America,B2B
+2024-10-02,Gadget X,Hardware,9,49.99,449.91,Europe,B2C
+2024-10-03,Sensor Plus,Accessories,29,19.99,579.71,Asia Pacific,B2B
+2024-10-04,Cable Kit,Components,9,9.99,89.91,Latin America,B2C
+2024-10-05,Power Unit,Electronics,13,79.99,1039.87,North America,B2B
+2024-10-06,LED Panel,Hardware,7,39.99,279.93,Europe,B2C
+2024-10-07,Micro Board,Accessories,10,59.99,599.90,Asia Pacific,B2B
+2024-10-08,Relay Switch,Components,24,24.99,599.76,Latin America,B2C
+2024-10-09,Widget Pro,Electronics,6,29.99,179.94,North America,B2B
+2024-10-10,Gadget X,Hardware,22,49.99,1099.78,Europe,B2C
+2024-10-11,Sensor Plus,Accessories,27,19.99,539.73,Asia Pacific,B2B
+2024-10-12,Cable Kit,Components,16,9.99,159.84,Latin America,B2C
+2024-10-13,Power Unit,Electronics,19,79.99,1519.81,North America,B2B
+2024-10-14,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-10-15,Micro Board,Accessories,13,59.99,779.87,Asia Pacific,B2B
+2024-10-16,Relay Switch,Components,27,24.99,674.73,Latin America,B2C
+2024-10-17,Widget Pro,Electronics,21,29.99,629.79,North America,B2B
+2024-10-18,Gadget X,Hardware,20,49.99,999.80,Europe,B2C
+2024-10-19,Sensor Plus,Accessories,18,19.99,359.82,Asia Pacific,B2B
+2024-10-20,Cable Kit,Components,24,9.99,239.76,Latin America,B2C
+2024-10-21,Power Unit,Electronics,12,79.99,959.88,North America,B2B
+2024-10-22,LED Panel,Hardware,19,39.99,759.81,Europe,B2C
+2024-10-23,Micro Board,Accessories,21,59.99,1259.79,Asia Pacific,B2B
+2024-10-24,Relay Switch,Components,6,24.99,149.94,Latin America,B2C
+2024-10-25,Widget Pro,Electronics,8,29.99,239.92,North America,B2B
+2024-10-26,Gadget X,Hardware,13,49.99,649.87,Europe,B2C
+2024-10-27,Sensor Plus,Accessories,6,19.99,119.94,Asia Pacific,B2B
+2024-10-28,Cable Kit,Components,7,9.99,69.93,Latin America,B2C
+2024-11-01,Power Unit,Electronics,21,79.99,1679.79,North America,B2B
+2024-11-02,LED Panel,Hardware,11,39.99,439.89,Europe,B2C
+2024-11-03,Micro Board,Accessories,27,59.99,1619.73,Asia Pacific,B2B
+2024-11-04,Relay Switch,Components,8,24.99,199.92,Latin America,B2C
+2024-11-05,Widget Pro,Electronics,8,29.99,239.92,North America,B2B
+2024-11-06,Gadget X,Hardware,24,49.99,1199.76,Europe,B2C
+2024-11-07,Sensor Plus,Accessories,10,19.99,199.90,Asia Pacific,B2B
+2024-11-08,Cable Kit,Components,10,9.99,99.90,Latin America,B2C
+2024-11-09,Power Unit,Electronics,21,79.99,1679.79,North America,B2B
+2024-11-10,LED Panel,Hardware,21,39.99,839.79,Europe,B2C
+2024-11-11,Micro Board,Accessories,29,59.99,1739.71,Asia Pacific,B2B
+2024-11-12,Relay Switch,Components,29,24.99,724.71,Latin America,B2C
+2024-11-13,Widget Pro,Electronics,6,29.99,179.94,North America,B2B
+2024-11-14,Gadget X,Hardware,4,49.99,199.96,Europe,B2C
+2024-11-15,Sensor Plus,Accessories,25,19.99,499.75,Asia Pacific,B2B
+2024-11-16,Cable Kit,Components,2,9.99,19.98,Latin America,B2C
+2024-11-17,Power Unit,Electronics,23,79.99,1839.77,North America,B2B
+2024-11-18,LED Panel,Hardware,23,39.99,919.77,Europe,B2C
+2024-11-19,Micro Board,Accessories,18,59.99,1079.82,Asia Pacific,B2B
+2024-11-20,Relay Switch,Components,13,24.99,324.87,Latin America,B2C
+2024-11-21,Widget Pro,Electronics,6,29.99,179.94,North America,B2B
+2024-11-22,Gadget X,Hardware,11,49.99,549.89,Europe,B2C
+2024-11-23,Sensor Plus,Accessories,25,19.99,499.75,Asia Pacific,B2B
+2024-11-24,Cable Kit,Components,9,9.99,89.91,Latin America,B2C
+2024-11-25,Power Unit,Electronics,20,79.99,1599.80,North America,B2B
+2024-11-26,LED Panel,Hardware,15,39.99,599.85,Europe,B2C
+2024-11-27,Micro Board,Accessories,9,59.99,539.91,Asia Pacific,B2B
+2024-11-28,Relay Switch,Components,19,24.99,474.81,Latin America,B2C
+2024-11-01,Widget Pro,Electronics,13,29.99,389.87,North America,B2B
+2024-11-02,Gadget X,Hardware,9,49.99,449.91,Europe,B2C
+2024-11-03,Sensor Plus,Accessories,9,19.99,179.91,Asia Pacific,B2B
+2024-11-04,Cable Kit,Components,5,9.99,49.95,Latin America,B2C
+2024-11-05,Power Unit,Electronics,28,79.99,2239.72,North America,B2B
+2024-11-06,LED Panel,Hardware,16,39.99,639.84,Europe,B2C
+2024-11-07,Micro Board,Accessories,19,59.99,1139.81,Asia Pacific,B2B
+2024-11-08,Relay Switch,Components,20,24.99,499.80,Latin America,B2C
+2024-11-09,Widget Pro,Electronics,26,29.99,779.74,North America,B2B
+2024-11-10,Gadget X,Hardware,11,49.99,549.89,Europe,B2C
+2024-11-11,Sensor Plus,Accessories,29,19.99,579.71,Asia Pacific,B2B
+2024-11-12,Cable Kit,Components,3,9.99,29.97,Latin America,B2C
+2024-11-13,Power Unit,Electronics,6,79.99,479.94,North America,B2B
+2024-11-14,LED Panel,Hardware,22,39.99,879.78,Europe,B2C
+2024-12-15,Micro Board,Accessories,9,59.99,539.91,Asia Pacific,B2B
+2024-12-16,Relay Switch,Components,5,24.99,124.95,Latin America,B2C
+2024-12-17,Widget Pro,Electronics,21,29.99,629.79,North America,B2B
+2024-12-18,Gadget X,Hardware,9,49.99,449.91,Europe,B2C
+2024-12-19,Sensor Plus,Accessories,2,19.99,39.98,Asia Pacific,B2B
+2024-12-20,Cable Kit,Components,27,9.99,269.73,Latin America,B2C
+2024-12-21,Power Unit,Electronics,29,79.99,2319.71,North America,B2B
+2024-12-22,LED Panel,Hardware,28,39.99,1119.72,Europe,B2C
+2024-12-23,Micro Board,Accessories,10,59.99,599.90,Asia Pacific,B2B
+2024-12-24,Relay Switch,Components,5,24.99,124.95,Latin America,B2C
+2024-12-25,Widget Pro,Electronics,4,29.99,119.96,North America,B2B
+2024-12-26,Gadget X,Hardware,7,49.99,349.93,Europe,B2C
+2024-12-27,Sensor Plus,Accessories,24,19.99,479.76,Asia Pacific,B2B
+2024-12-28,Cable Kit,Components,28,9.99,279.72,Latin America,B2C
+2024-12-01,Power Unit,Electronics,19,79.99,1519.81,North America,B2B
+2024-12-02,LED Panel,Hardware,25,39.99,999.75,Europe,B2C
+2024-12-03,Micro Board,Accessories,13,59.99,779.87,Asia Pacific,B2B
+2024-12-04,Relay Switch,Components,17,24.99,424.83,Latin America,B2C
+2024-12-05,Widget Pro,Electronics,2,29.99,59.98,North America,B2B
+2024-12-06,Gadget X,Hardware,9,49.99,449.91,Europe,B2C
+2024-12-07,Sensor Plus,Accessories,9,19.99,179.91,Asia Pacific,B2B
+2024-12-08,Cable Kit,Components,20,9.99,199.80,Latin America,B2C
+2024-12-09,Power Unit,Electronics,7,79.99,559.93,North America,B2B
+2024-12-10,LED Panel,Hardware,28,39.99,1119.72,Europe,B2C
+2024-12-11,Micro Board,Accessories,14,59.99,839.86,Asia Pacific,B2B
+2024-12-12,Relay Switch,Components,26,24.99,649.74,Latin America,B2C
+2024-12-13,Widget Pro,Electronics,9,29.99,269.91,North America,B2B
+2024-12-14,Gadget X,Hardware,13,49.99,649.87,Europe,B2C
+2024-12-15,Sensor Plus,Accessories,14,19.99,279.86,Asia Pacific,B2B
+2024-12-16,Cable Kit,Components,8,9.99,79.92,Latin America,B2C
+2024-12-17,Power Unit,Electronics,10,79.99,799.90,North America,B2B
+2024-12-18,LED Panel,Hardware,10,39.99,399.90,Europe,B2C
+2024-12-19,Micro Board,Accessories,29,59.99,1739.71,Asia Pacific,B2B
+2024-12-20,Relay Switch,Components,25,24.99,624.75,Latin America,B2C
+2024-12-21,Widget Pro,Electronics,16,29.99,479.84,North America,B2B
+2024-12-22,Gadget X,Hardware,4,49.99,199.96,Europe,B2C
+2024-12-23,Sensor Plus,Accessories,10,19.99,199.90,Asia Pacific,B2B
+2024-12-24,Cable Kit,Components,10,9.99,99.90,Latin America,B2C

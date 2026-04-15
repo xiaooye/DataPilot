@@ -1,26 +1,139 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  /* ── DataPilot blue accent palette ──────────────────────── */
+  --color-background: hsl(0 0% 100%);
+  --color-foreground: hsl(0 0% 10%);
+  --color-card: hsl(0 0% 100%);
+  --color-card-foreground: hsl(0 0% 10%);
+  --color-popover: hsl(0 0% 100%);
+  --color-popover-foreground: hsl(0 0% 10%);
+  --color-primary: hsl(221 83% 53%);
+  --color-primary-foreground: hsl(0 0% 100%);
+  --color-secondary: hsl(210 20% 96%);
+  --color-secondary-foreground: hsl(0 0% 10%);
+  --color-muted: hsl(210 20% 96%);
+  --color-muted-foreground: hsl(220 9% 46%);
+  --color-accent: hsl(221 83% 53%);
+  --color-accent-foreground: hsl(0 0% 100%);
+  --color-destructive: hsl(0 72% 51%);
+  --color-destructive-foreground: hsl(0 0% 100%);
+  --color-border: hsl(220 13% 91%);
+  --color-input: hsl(220 13% 91%);
+  --color-ring: hsl(221 83% 53%);
+  --color-chart-1: hsl(221 83% 53%);
+  --color-chart-2: hsl(160 45% 40%);
+  --color-chart-3: hsl(262 47% 55%);
+  --color-chart-4: hsl(43 74% 49%);
+  --color-chart-5: hsl(12 76% 61%);
+  --color-success: hsl(142 71% 35%);
+  --color-warning: hsl(38 92% 50%);
+  --color-error: hsl(0 72% 51%);
+  --radius: 0.75rem;
+
+  /* ── Dark mode ──────────────────────────────────────────── */
+  --dark-color-background: hsl(240 10% 4%);
+  --dark-color-foreground: hsl(0 0% 98%);
+  --dark-color-card: hsl(240 6% 10%);
+  --dark-color-card-foreground: hsl(0 0% 98%);
+  --dark-color-popover: hsl(240 6% 10%);
+  --dark-color-popover-foreground: hsl(0 0% 98%);
+  --dark-color-primary: hsl(217 91% 60%);
+  --dark-color-primary-foreground: hsl(0 0% 100%);
+  --dark-color-secondary: hsl(240 4% 16%);
+  --dark-color-secondary-foreground: hsl(0 0% 98%);
+  --dark-color-muted: hsl(240 4% 16%);
+  --dark-color-muted-foreground: hsl(240 5% 65%);
+  --dark-color-accent: hsl(217 91% 60%);
+  --dark-color-accent-foreground: hsl(0 0% 100%);
+  --dark-color-destructive: hsl(0 62% 40%);
+  --dark-color-destructive-foreground: hsl(0 0% 98%);
+  --dark-color-border: hsl(240 4% 26%);
+  --dark-color-input: hsl(240 4% 26%);
+  --dark-color-ring: hsl(217 91% 60%);
+
+  /* ── Font ───────────────────────────────────────────────── */
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.dark {
+  --color-background: var(--dark-color-background);
+  --color-foreground: var(--dark-color-foreground);
+  --color-card: var(--dark-color-card);
+  --color-card-foreground: var(--dark-color-card-foreground);
+  --color-popover: var(--dark-color-popover);
+  --color-popover-foreground: var(--dark-color-popover-foreground);
+  --color-primary: var(--dark-color-primary);
+  --color-primary-foreground: var(--dark-color-primary-foreground);
+  --color-secondary: var(--dark-color-secondary);
+  --color-secondary-foreground: var(--dark-color-secondary-foreground);
+  --color-muted: var(--dark-color-muted);
+  --color-muted-foreground: var(--dark-color-muted-foreground);
+  --color-accent: var(--dark-color-accent);
+  --color-accent-foreground: var(--dark-color-accent-foreground);
+  --color-destructive: var(--dark-color-destructive);
+  --color-destructive-foreground: var(--dark-color-destructive-foreground);
+  --color-border: var(--dark-color-border);
+  --color-input: var(--dark-color-input);
+  --color-ring: var(--dark-color-ring);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ═══ Shimmer animation for skeleton loading ═════════════════ */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-muted) 25%,
+    var(--color-border) 37%,
+    var(--color-muted) 63%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* ═══ Focus ring ═════════════════════════════════════════════ */
+*:focus-visible {
+  outline: 2px solid var(--color-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius);
+}
+
+/* ═══ Typography ═════════════════════════════════════════════ */
+h1, h2, h3, h4 {
+  letter-spacing: -0.02em;
+}
+
+/* ═══ Smooth scroll ══════════════════════════════════════════ */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
