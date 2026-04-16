@@ -12,7 +12,8 @@ const techStack = [
 
 const showcases = [
   { name: "Resume", href: "https://wei-dev.com" },
-  { name: "WebStore", href: "https://store.wei-dev.com" },
+  { name: "WebStore", href: "https://ecom.wei-dev.com" },
+  { name: "TeamPilot", href: "https://cms.wei-dev.com" },
 ];
 
 export function Footer() {
